@@ -71,7 +71,7 @@ def st_body():
     )
     
     st.markdown(
-        "SHELL IS A PUTPUT"
+        "SHELL IS A PUTPUT, she is biiiiiiiiiiiiig putput 👧"
     )
 
 # Run main()
