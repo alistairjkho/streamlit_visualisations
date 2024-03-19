@@ -7,7 +7,7 @@ Author:
 """
 
 import streamlit as st
-
+from pyvis import network as net
 
 st.set_page_config(
     page_title='Visualisations',
@@ -70,7 +70,10 @@ def st_body():
     - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
     """
     )
-        
+    
+    st.markdown(
+        "SHELL IS A PUTPUT"
+    )
 
 # Run main()
 
