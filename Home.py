@@ -7,7 +7,6 @@ Author:
 """
 
 import streamlit as st
-from pyvis import network as net
 
 st.set_page_config(
     page_title='Visualisations',
