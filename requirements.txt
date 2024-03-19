@@ -2,3 +2,6 @@ streamlit
 pandas
 numpy
 pyvis
+pycirclize
+plotly_calplot
+plotly

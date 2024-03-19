@@ -70,10 +70,6 @@ def st_body():
     """
     )
     
-    st.markdown(
-        "SHELL IS A PUTPUT, she is biiiiiiiiiiiiig putput 👧"
-    )
-
 # Run main()
 
 if __name__ == '__main__':
