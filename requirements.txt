@@ -5,3 +5,4 @@ pyvis
 pycirclize
 plotly_calplot
 plotly
+waterfallcharts
