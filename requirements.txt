@@ -6,3 +6,4 @@ pycirclize
 plotly_calplot
 plotly
 waterfallcharts
+seaborn
