@@ -57,7 +57,7 @@ init_streamlit_comm()
 def get_pyg_renderer() -> "StreamlitRenderer":
     df = load_data(uploaded_file)
     # When you need to publish your app to the public, you should set the debug parameter to False to prevent other users from writing to your chart configuration file.
-    return StreamlitRenderer(df, spec="./gw_config.json", debug=False)
+    return StreamlitRenderer(df, spec="./gw_config.json", spec_io_mode="r") # Read only spec-io-mode, change to rw if required read-write
  
 if st.button('Click me!'):
     renderer = get_pyg_renderer()
