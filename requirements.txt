@@ -10,3 +10,4 @@ seaborn
 pygwalker
 folium
 geopandas
+streamlit_folium
